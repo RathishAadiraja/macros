@@ -1,0 +1,2 @@
+#ONE( &1, &2) { ZUZIA &1 $TWO( TOMEK, TOM) &2 }
+#TWO( &1, &2) { ZUZIA &1 &2 $THREE( MAREK, &1) }

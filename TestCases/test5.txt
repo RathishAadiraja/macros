@@ -1,0 +1,13 @@
+free text
+something not a macro
+#OOOO({}#{   }#####{okay}this is also not a macro
+#ONE(&1 {COMPUTER}
+#(&1,&2){KEYBOARD}
+skip this line######()()()()()()
+
+//incorrect syntax of macro definitions
+#ONE(&1 {COMPUTER}
+#ONE(&1) COMPUTER}
+ONE(&1) {COMPUTER}
+#ONE(1) {COMPUTER}
+#ONE(&1&2) {COMPUTER}

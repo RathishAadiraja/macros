@@ -1,0 +1,9 @@
+Write a program checking, if there is a possibility of infinite recursion in a set of macrodefinitions. Makrodefinition is :
+#NAME( &1, &2, ..)
+{ body // in body macrocalls can be found
+}
+Macrocall: $NAME ( val1, val2, … )
+An example of recursion:
+#ONE( &1, &2) { ZUZIA &1 $THREE( TOMEK) &2 }
+#TWO( &1, &2) {ZUZIA &1 &2 $ONE( MAREK, &1) }
+#THREE( &1 ){ ZUZIA &1 $ONE( KRZYŚ, WITEK) $TWO( MAREK, &1 ) }

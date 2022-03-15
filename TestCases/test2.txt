@@ -1,0 +1,9 @@
+free text
+something not a macro
+#ONE( &1,  &2) { ZUZIA &1 $THREE( TOMEK ) &2 }
+#TWO( &1, &2) {ZUZIA &1 &2 $ONE( MAREK, &1) } 
+#THREE(&1){ ZUZIA &1 $ONE( KRZYS, WITEK) $TWO( MAREK, &1 ) }
+#OOOO({}#{   }#####{okay}this is also not a macro
+#ONE(&1 {COMPUTER}
+#(&1,&2){KEYBOARD}
+skip this line######()()()()()()
